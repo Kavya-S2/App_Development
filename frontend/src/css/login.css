@@ -1,0 +1,142 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.animated-background {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(270deg, #f9d423, #4286f4);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-container {
+  flex: 1;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container .content {
+  text-align: center;
+}
+
+.left-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.left-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e2d4c;
+  color: white;
+  border: none;
+  border-radius: 25px; /* More rounded buttons */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1a1a3d;
+}
+
+span {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+p a {
+  color: #2e2d4c;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.toggle-buttons button {
+  flex: 1;
+  padding: 10px;
+  background-color: #f0f2f5;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* More rounded buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-buttons button.active {
+  background-color: #2e2d4c;
+  color: white;
+}
+
+.toggle-buttons button:not(:last-child) {
+  margin-right: 10px;
+}

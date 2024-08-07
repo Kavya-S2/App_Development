@@ -1,0 +1,84 @@
+/* user-activity.css */
+
+.user-activity-page {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background for the page */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+}
+
+.user-activity-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center cards horizontally */
+}
+
+.user-card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  width: 300px; /* Fixed width for cards */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.user-card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.user-header h4 {
+  margin: 0;
+  color: #343a40; /* Dark gray color for name */
+}
+
+.user-header p {
+  margin: 5px 0;
+  color: #6c757d; /* Light gray color for course */
+}
+
+.user-stats {
+  margin: 15px 0;
+}
+
+.user-stats p {
+  margin: 5px 0;
+  color: #495057; /* Slightly lighter gray for stats */
+}
+
+.user-stats strong {
+  color: #007bff; /* Blue color for labels */
+}
+
+.activity-list {
+  margin-top: 15px;
+}
+
+.activity-item {
+  background-color: #e9ecef; /* Light gray background for activity items */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between; /* Space between date and description */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.activity-item:hover {
+  background-color: #ced4da; /* Darker gray on hover */
+}
+
+.activity-date {
+  font-weight: 600; /* Bold date */
+  color: #495057; /* Gray color for date */
+}
+
+.activity-description {
+  color: #343a40; /* Dark gray color for description */
+}
+
+h2 {
+  color: #007bff; /* Blue color for heading */
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}

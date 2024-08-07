@@ -1,0 +1,41 @@
+/* admin-header.css */
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #003366; /* Dark blue background */
+  color: #ffffff; /* White text color */
+  position: relative; /* Allows positioning of the logout button */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Allows centering of the website name */
+  justify-content: center; /* Centering the website name */
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logout-button {
+  background-color: #ff0000; /* Red background for logout button */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 5px 10px; /* Small padding for a compact button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px; /* Smaller font size */
+  position: absolute; /* Allows precise positioning within the header */
+  right: 20px; /* Distance from the right edge */
+  top: 50%; /* Vertically center the button */
+  transform: translateY(-50%); /* Adjusts the vertical position */
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #cc0000; /* Darker red when hovered */
+}

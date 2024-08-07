@@ -1,0 +1,102 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.payment-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.completed {
+  background-color: #00bfa5;
+  color: white;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.payment-methods i {
+  font-size: 3rem; /* Increase the size of the icons */
+  color: #004080; /* Dark blue color */
+  cursor: pointer;
+}
+
+.payment-methods i.selected {
+  border: 2px solid #004080; /* Dark blue color */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pay-button {
+  background-color: #004080; /* Dark blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #00264d; /* Darker shade of blue */
+}
+
+.payment-summary {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.payment-summary h4 {
+  margin-bottom: 10px;
+}
+
+.payment-summary p {
+  margin: 5px 0;
+}

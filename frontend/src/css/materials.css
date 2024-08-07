@@ -1,0 +1,74 @@
+/* materials.css */
+.container-xxl {
+    padding: 2rem 0;
+  }
+  
+  .video-card, .quiz-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-container iframe {
+    border-radius: 8px;
+  }
+  
+  .video-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .video-completed {
+    display: block;
+    margin-top: 0.5rem;
+    color: #28a745;
+  }
+  
+  .progress-bar {
+    margin-top: 1rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    height: 8px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #007bff;
+    height: 100%;
+    transition: width 0.3s;
+  }
+  
+  .form-check {
+    margin-bottom: 0.5rem;
+  }
+  
+  .quiz-question {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    border-radius: 8px;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
